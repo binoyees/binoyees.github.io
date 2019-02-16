@@ -1,0 +1,238 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Binoy Varghese
+    tagline: SaaS Technology Consultant
+#    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: binoyhex@gmail.com
+    phone: '+91 7483757462'
+    website: #blog.binoy.com #do not add http://
+    linkedin: binoy-varghese
+    resume: Binoy_Resume.pdf
+    #github: binoydev
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Professional
+
+      - idiom: Malayalam
+        level: Native
+
+    interests:
+      - item: Reading
+        link:
+
+      - item: Swimming
+        link:
+
+      - item: Gaming
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I am a software engineer interested in architecting server-side applications. Technologist, avid developer intrested in following best practices & industry standards. Strong knowledge on Java, Spring, JavaScript & TypeScript based applications. Worked on both product & services industry with over 9 years of experience.
+education:
+    - degree: B.Tech in Computer Science & Engineering
+      university: College of Engineering, Chengannur
+      time: 2005 - 2009
+      details: |
+
+
+experiences:
+    - role: SaaS Technology Consultant
+      time: 2019 - Present
+      company: Metal Street - B2B marketplace for steel trading
+      details: |
+        Architected sales module in firebase with multitenant db & cloud functions. Design was based on CQRS, DDD principles.  
+        Implemented user authentication using Openid & OAuth2 token introspection endpoints.  
+        Integration with zoho books for handling sales module.  
+        Implementation of integration middleware using cloud functions serverless technology.  
+
+        Technology summary
+          - Nodejs, TypeScript, Firebase-NoSQL,  Google cloud functions, OAuth2
+
+    - role: SaaS Technology Consultant
+      time: 2017 - 2018
+      company: Mediapp - B2B app for pharma stockists,chemists & distributors
+      details: |
+        Architected integration middleware as event-driven for sales module in google cloud functions.  
+        Handling sales module using zoho books api.  
+        App notification for sales module using Firebase Cloud Messaging.  
+        Designed & implemented batch processing jobs in cloud functions. For handling long running jobs, tasks are split into small units which executes in cloud functions.  
+        Handled 10k active users in cloud functions.  
+        Handling of customer support.  
+        Mentoring junior developers.  
+
+        Technology summary
+          - Nodejs, TypeScript, Firebase-NoSQL, Google cloud functions, Firebase cloud messaging
+
+    - role: SaaS Technology Consultant
+      time: 2017 - Present
+      company: Startup
+      details: |
+        Development of multitenant identity server.
+
+        Technology summary
+          - Java, Spring, Spring security, UAA, Openid, PostgreSQL
+
+    - role: Senior Software Engineer
+      time: 2013 - 2017
+      company: Leanswift
+      details: |
+        Technical architect & leading development of eLink which is middleware for Infor M3 ERP.  
+        eLink provides integration between eCommerce, web, mobile applications and Infor M3 with secure access control.  
+
+        Development of eLink using Spring Framework following TDD with documentation.  
+        Implementation of authentication & access control using Spring Security.  
+        Developed eLink Transaction manager using Spring Transaction Management.  
+        Developed eLink Connection pooling using Apache commons pool.  
+        Mentoring & leading of the development team.  
+
+        Payment integration with pos device via JavaScript API.  
+        Vaadin based apps for comactivity & Infor M3.  
+        eLink support for Leanswift M3 apps marketplace.  
+        Build automation using Jenkins.  
+        Helped in recruitment, interview and mentoring for various teams in Leanswift.  
+
+        Technology summary
+          - Java, Spring, Spring security, Openid, PostgreSQL, H2, Jenkins, Vaadin
+
+    - role: Member of Technical Staff
+      time: 2011 - 2013
+      company: Zoho - Team member of ManageEngine Netflow analyser
+      details: |
+        Implmenting security to prevent csrf attacks using inhouse security framework.  
+        Bug fixes and performance improvements.  
+        Helped in testing netflow analyser for various use cases.  
+        Helped in migrating Mysql db to PostgreSQL.  
+        Helped in adding performance tuning of netflow analyser. 
+        Dynamically increasing java heap memory based on usage.  
+
+        Technology summary
+          - Java, JavaScript, HTML, CSS, MySQL, PostgreSQL
+
+    - role: Software Engineer
+      time: 2010 - 2010
+      company: CCS Technologies
+      details: |
+        Developemnt of Exam management software.  
+        Worked on both JavaScript & java.  
+        Implemented ajax, jquery based frontend which communicates with tomcat server.  
+
+        Technology summary
+        - Java, JavaScript, jQuery, HTML, CSS, MySQL
+
+    - role: Trainee Engineer
+      time: 2009 - 2010
+      company: Techieindex Solutions
+      details: |
+        Support engineer for debugging and bug fixing of inhouse framework.  
+        Development of data grabber using Rome api - Java framework for RSS and Atom feeds.  
+
+        Technology summary
+        - Java, JavaScript, HTML, CSS, MySQL
+
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects or open source libraries in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#
+#    assignments:
+#      - title: eLink
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#
+#    papers:
+#      - title: The Art of Computer Programming
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - main: Java tools
+        sub: Spring, Spring boot, Spring cloud, Apache commons, Tomcat
+
+      - main: JavaScript tools
+        sub: Nodejs, TypeScript, Expressjs, Passportjs
+
+      - main: DB
+        sub: PostgreSQL, MySQL, Firebase(NoSQL), Cassandra(NoSQL)
+
+      - main: UI tools
+        sub: Vaadin, jQuery
+
+      - main: Web
+        sub: HTML, CSS
+
+      - main: Identity Management
+        sub: OAuth2.0, Openid, UAA
+
+      - main: Cloud platform
+        sub: GCP, Cloud Functions, GKE, AWS
+
+      - main: Build tools
+        sub: Maven, Jenkins, Gradle
+
+      - main: Testing
+        sub: JMeter, JUnit, Mockito, TDD
+
+      - main: Version control
+        sub: Git, Github, Gitlab, SVN, Mercurial
+
+      - main: IDE
+        sub: VSCode, Eclipse
+
+footer:

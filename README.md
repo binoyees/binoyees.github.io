@@ -1,2 +1,2 @@
-# binoyees.github.io
-Github page
+### Binoy Varghese
+[Resume](resume/Binoy_Resume.pdf)

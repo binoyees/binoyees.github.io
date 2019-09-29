@@ -48,10 +48,18 @@
     }
 
     a[href]:after {
-    content: none !important;
+    content: none;
   }
-    .item {
+    .meta {
       page-break-inside: avoid;
+      font-weight: bold;
     }
+
+  .fa-circle:before {
+      font-weight: 400;
+  }
+  li .file-pdf a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
 }

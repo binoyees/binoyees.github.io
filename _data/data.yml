@@ -119,7 +119,7 @@ experiences:
       time: 2011 - 2013
       company: Zoho - Team member of ManageEngine Netflow analyser
       details: |
-        Implmenting security to prevent csrf attacks using inhouse security framework.  
+        Implementing security to prevent csrf attacks using inhouse security framework.  
         Bug fixes and performance improvements.  
         Helped in testing netflow analyser for various use cases.  
         Helped in migrating Mysql db to PostgreSQL.  

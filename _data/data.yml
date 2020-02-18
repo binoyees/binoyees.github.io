@@ -55,7 +55,8 @@ education:
       time: 2005 - 2009
       details: |
 
-
+exp:
+    total: 9 years
 experiences:
     - role: SaaS Technology Consultant
       time: 2019 - Present
@@ -200,39 +201,40 @@ experiences:
 
 skills:
     title: Skills &amp; Proficiency
+    exp: (exp. in years)
 
     toolset:
       - main: Java tools
-        sub: Spring, Spring boot, Spring cloud, Apache commons, Tomcat
+        sub: Spring(6), Spring boot(6), Spring cloud(2), Apache commons(6), Tomcat(10)
 
       - main: JavaScript tools
-        sub: Nodejs, TypeScript, Expressjs, Passportjs
+        sub: Nodejs(2), TypeScript(2), Expressjs(2), Passportjs(2)
 
       - main: DB
-        sub: PostgreSQL, MySQL, Firebase(NoSQL), Cassandra(NoSQL)
+        sub: PostgreSQL(6), MySQL(2), Firebase(2), Cassandra(1)
 
       - main: UI tools
-        sub: Vaadin, jQuery
+        sub: Vaadin(4), jQuery(1)
 
       - main: Web
         sub: HTML, CSS
 
       - main: Identity Management
-        sub: OAuth2.0, Openid, UAA
+        sub: OAuth2.0(3), Openid(3), UAA(3)
 
       - main: Cloud platform
-        sub: GCP, Cloud Functions, GKE, AWS
+        sub: GCP(3), Cloud Functions(3), GKE, AWS
 
       - main: Build tools
-        sub: Maven, Jenkins, Gradle
+        sub: Maven(6), Jenkins(1), Gradle(1)
 
       - main: Testing
-        sub: JMeter, JUnit, Mockito, TDD
+        sub: JMeter(2), JUnit(3), Mockito(1), TDD(6)
 
       - main: Version control
-        sub: Git, Github, Gitlab, SVN, Mercurial
+        sub: Git(4), Github(4), Gitlab(2), SVN(2), Mercurial(1)
 
       - main: IDE
-        sub: VSCode, Eclipse
+        sub: VSCode(2), Eclipse(6)
 
 footer:

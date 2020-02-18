@@ -194,6 +194,15 @@ p {
         top: 0;
         color: $text-grey;
     }
+    .total-time {
+        float: right;
+        text-transform: none;
+        font-size: 16px;
+    }
+    .skill-title-sub {
+        text-transform: none;
+        font-size: 14px;
+    }
     .company, .university {
         margin-bottom: 10px;
         color: $text-grey;
